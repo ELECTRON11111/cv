@@ -1,0 +1,131 @@
+<!--The base code of html i got by entering the ! command is a boilerplate...
+    A boilerplate is simply a bunch of prewritten code. An example is like Dad's
+    stamp that has his business name, address inscribed in it.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--This Is a form encoding that supports all languages,emojis-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is my first HTML webpage with Angela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Site❤</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        img{
+            border-radius: 25px;
+        }
+        /* 
+            Different Browsers have default CSS for certain elements 
+            You can change the default by simply specifying the property
+        */
+        hr {
+            /* background-color: white; */
+            width: 5%;
+            border:  #B5EAEA;
+            border-style: dotted;
+            border-width: 5px;
+            border-top: 200px;
+            /*
+                This would have same effect:
+            border-style: none;
+            border-top-style: dotted;
+            width: 30%;
+            */
+        }
+        /*  Instead of just hardcoding stuffs like height,width 
+            which will cause problems when dealing with bigger or smaller screens
+            Its better to use percentages(e.g This div width should be 30% of the
+            screen: either big or small)
+        */
+        
+    </style>
+</head>
+
+<body>
+    <img src="C:\Users\USER\Documents\Electron\abc.jpg" alt="My picture" height="100px">
+    <p>My name is <em>Opemipo.</em></p> <!--The em represent italics-->
+    <p>My name is <strong>Daniel.</strong></p> <!--The strong represent bold-->
+    <p>I am a full Stack Web developer</p>
+    <!-- Another way of laying out the above is with a table -->
+    <table cellspacing="50">
+        <tr>
+            <td><img src="C:\Users\USER\Documents\Electron\abc.jpg" alt="My picture" height="100px"></td>
+            <td>
+                <p>My name is <em>Opemipo.</em></p> <!--The em represent italics-->
+                <p>My name is <strong>Daniel.</strong></p> <!--The strong represent bold-->
+                <p>I am a full Stack Web developer</p>            
+            </td>        
+        </tr>
+    </table>
+    <!-- Header Done!!! -->
+    <hr size="3">
+    <strong>books and Readings.</strong>
+    <ul>
+        <li>BD Bunday
+            <ul>
+                <li>Integration by parts</li>
+            </ul>
+        </li>
+        <li>College Physics
+            <ul>
+                <li>Shear Modulus</li>
+            </ul>
+        </li>
+        <li>Nelkon and Parker</li>
+        <li>Further Mathes Project 2 SS2
+            <ul>
+                <li>Polynomials</li>
+                <li>Introduction to Calculus</li>
+                <li>Limits and Continuity</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <strong>My Hobbies</strong>
+    <ol>
+        <li>reading</li>
+        <li>coding</li>
+        <li>football</li>
+    </ol>
+    <hr>
+    <!-- Skills -->
+    <em><h3>Skills</h3></em>
+    <table cellspacing="5">
+        <tr>
+            <td></td>
+            <td>
+                <table cellspacing="5">
+                    <tr>
+                        <td>Teaching</td>
+                        <td>⭐⭐⭐⭐⭐</td>    
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellspacing="5">
+                    <tr>
+                        <td>Gaming</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>reading</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Links -->
+    <em><a href="hobbies.html">My Hobbies</a></em>
+    <em><a href="contact.html">Contact Me</a></em>
+    <em><a href="table.html">Table</a></em>
+</body>
+</html>
